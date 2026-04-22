@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/tinder-bio",
-  "title": "tinder uio",
-  "description": "tinder-bio MCP — wraps StupidAPIs (requires X-API-Key)",
+  "title": "Tinder Bio",
+  "description": "tinder-bio MCP \u2014 wraps StupidAPIs (requires X-API-Key)",
   "version": "0.1.0",
   "websiteUrl": "https://pipeworx.io/packs/tinder-bio",
   "repository": {
