@@ -77,3 +77,13 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+```bash
+curl -X POST https://gateway.pipeworx.io/v1/tools/tinder_bio_generate \
+  -H 'Content-Type: application/json' \
+  -d '{"age":28,"profession":"software engineer","personality":"adventurous, foodie, intellectual","situation":"new_to_app","gender":"male","looking_for":"relationship","energy":"trying_too_hard"}'
+```
+
+No account needed for the first calls. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/tinder_bio_generate`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
