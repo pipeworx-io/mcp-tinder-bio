@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-tinder-bio",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "tinder-bio MCP — wraps StupidAPIs (keyless — no credential needed)",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-70fd0a4af8ac1114562e4769c69063cac142ca20f3dc7213925d2adc25816ac7",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }
